@@ -1,14 +1,12 @@
-@@charset "UTF-8";
-
 body {
-    font-family: "Helvetica Neue", Helvetica, Arial, "Mircosoft Yahei UI";
+    font-family: "Helvetica Neue", Helvetica, Arial, "Mircosoft Yahei UI", sans-serif;
     position: relative;
 }
 #myCarousel {
     margin: 100px 0 0 0;
 }
 .logo {
-    padding: 0px;
+    padding: 0;
 }
 #navbar-collapse ul {
     margin-top: 0;
@@ -209,7 +207,7 @@ body {
 }
 
 /*For medium size*/
-@media (min-width: 992) {
+@media (min-width: 992px) {
     .tab-h2 {
         font-size: 26px;
     }
